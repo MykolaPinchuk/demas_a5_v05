@@ -1,0 +1,6 @@
+# SWE-bench Lite smoke-test slice for iteration i0.
+# Keep this list short (2-3 instances) to maintain fast feedback cycles.
+instances:
+  - sqlfluff__sqlfluff-1625
+  - marshmallow-code__marshmallow-1359
+  - pydicom__pydicom-1694

@@ -1,2 +1,14 @@
+# Virtual environments
+.venv/
+
+# Generated run artifacts
+runs/
 poc/runs/
 
+# Dataset caches and cloned repos
+data/
+poc/data/
+
+# Python caches
+__pycache__/
+*.pyc

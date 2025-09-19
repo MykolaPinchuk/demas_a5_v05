@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demas"
+version = "0.1.0"
+description = "DEMAS SWE-bench evaluation tooling"
+requires-python = ">=3.10"
+readme = "README.md"
+authors = [{name = "DEMAS Team"}]
+dependencies = [
+    "datasets>=2.20.0",
+    "requests>=2.31.0",
+    "pyyaml>=6.0.1",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.4.5", "pytest>=7.4"]
+
+[project.scripts]
+demas-i0 = "demas.cli:i0_entrypoint"
