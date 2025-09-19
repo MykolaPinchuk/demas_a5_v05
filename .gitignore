@@ -12,3 +12,5 @@ poc/data/
 # Python caches
 __pycache__/
 *.pyc
+secrets
+
